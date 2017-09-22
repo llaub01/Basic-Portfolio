@@ -2,30 +2,68 @@
 <html>
 
 <head>
-	<title>Lonnie Laub</title>
+	<title>About Lonnie Laub</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 	<div id="header">
-		<a href="index.html"><h1>Lonnie Laub</h1></a>
-		<a href="index.html"><h2>About</h2></a>
-		<a href="portfolio.html"><h2>Portfolio</h2></a>
-		<a href="contact.html"><h2>Contact</h2></a>
+	<div class=headercontainer>	
+		<div id=brand>
+			<h1>Lonnie Laub</h1>
+		</div>
+		<div class=nav>
+			<div class="navmenu-end">
+				<a href="contact.html"><h4>Contact</h4></a>
+			</div>	
+			<div class="navmenu">
+				<a href="portfolio.html"><h4>Portfolio</h4></a>
+			</div>
+			<div class="navmenu">
+				<a href="index.html"><h4>About</h4></a>
+			</div>
+		</div>
+	</div>
 	</div>
 
-	<div id="contactform">
-		<h2>Contact Lonnie</h2>
-		<p>Contact form - FIX ME!</p>
+	<div class="contentcontainer">
+	<div id="content">
+		<div class="contenthead">
+			<h2>Contact</h2>
+		</div>
+		<div id="contactform">
+			<div class="container">
+  			<form>
+				<label for="name">Name</label>
+    			<input type="text" id="name" name="name" placeholder="Your name..">
+
+    			<label for="email">Email</label>
+    			<input type="text" id="email" name="email" placeholder="email@address">
+
+			    <label for="message">Message</label>
+    			<textarea id="message" name="message" placeholder="Your message" style="height:200px"></textarea>
+
+    			<input type="submit" value="Submit">
+
+  			</form>
+			</div>
+		</div>	
 	</div>
 
 	<div id="connect">
-		<h2>Connect with me</h2>
-		<p>icon1</p>
-		<p>icon2</p>
-		<p>icon3</p>
+		<div class="connecthead">
+			<h3>Connect with me</h3>
+		</div>
+	 	<a href="https://www.linkedin.com/in/lonnie-laub-2250667/"><img src=images/if_linkedin_square_color_107091.png alt="LinkedIn" width=60></a>
+		<a href="https://github.com/llaub01"><img src=images/if_github_square_black_107109.png alt="GitHub" width=60></a>
+		<a href="https://stackoverflow.com/users/2317213/llaub01"><img src=images/stackoverflow-128.png alt="Stack Overflow" width=55></a>
+	</div>
 	</div>
 
 	<div id="footer">
 		<p>© 2017 Lonnie Laub</p>
 	</div>
+
 </body>
+</html>	

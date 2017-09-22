@@ -1,8 +1,32 @@
 body {
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 14;
-	background: url(images/hypnotize.png) left top repeat;
-	/*width: 960px;*/
+	font-size: 14px;
+	background-image: url('../images/hypnotize.png');
+	width: 100%;
+}
+
+p {
+    padding: 20px 20px 20px 0;
+}
+
+/* headings */
+h1 {
+    font-size: 32px
+}
+
+h2 {
+    font-size: 26px;
+    color: #4aaaa5;
+}
+
+h3 {
+    font-size: 18px;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-size: 18px;
+    color: #dddddd;
 }
 
 #header {
@@ -14,29 +38,31 @@ body {
 	position: relative;
     top: : 0;
     left: 0;
-  	z-index: 10;}
+  	z-index: 10;
+}
 
 #footer {
-	background-color: #666666;
-	width: 100%;
-	height: 50px;
-	text-align: center;
-	font-size: 12px;
-	color: #cccccc;
-	padding-top: 25px;
-	clear: both;
-	/*position: fixed;*/
-	bottom: 0;
-	left: 0;
+    background-color: #666666;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    color: #cccccc;
+    clear: both;
+    border-top: 10px solid #4aaaa5;
+    margin: auto;
 }
 
-h1 {
-	font-size: 32px
+.headercontainer {
+	width: 960px;
+	position: relative;
+	margin: auto;
 }
 
-h2 {
-	font-size: 26px;
-	color: #4aaaa5;
+.contentcontainer {
+	width: 960px;
+	position: relative;
+	margin: auto;
 }
 
 #brand {
@@ -45,44 +71,26 @@ h2 {
     background-color: #4aaaa5;
     width: 185px;
     text-align: center;
-    margin-left: 90px;
+    /*margin-left: 40px;*/
     float: left;
 }
 
-#content{
-    width: 650px;
-    border: 2px solid #dddddd;
-    margin-left: 90px;
-    margin-top: 30px;
-    float: left;
-    padding: 20px;
-}
-
-#connect {
-	width: 270px;
-	border: 2px solid #dddddd;
-    margin-left: 30px;
-    margin-top: 30px;
-    float: left;
-    padding: 20px;
-}
-
-#blurb {
-	float: left;
-	padding: 20px 20px 20px 0;
-}
-
-.navmenu {
-	float: right;
-	margin: 10px;
-	padding-top: 10px;
-}
-
+/* content */
 .contenthead {
     padding: 10px;
     border-bottom: 2px solid #cccccc;
 }
 
+#content{
+    width: 606px;
+    border: 2px solid #dddddd;
+    margin: 40px 40px 40px 0;
+    float: left;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* connect with me */
 .connecthead {
     padding: 10px;
     border-bottom: 1px solid #dddddd;
@@ -91,10 +99,36 @@ h2 {
     margin-bottom: 20px;
 }
 
-.nav {
-	margin-right: 90px;
+#connect {
+    width: 226px;
+    border: 2px solid #dddddd;
+    margin-top: 40px;
+    text-align: center;
+    line-height: .7;
+    float: left;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
-p {
+#blurb {
+	float: left;
 	padding: 20px 20px 20px 0;
+}
+
+/* header nav */
+.nav {
+	margin-right: 0;
+}
+
+.navmenu {
+    float: right;
+    margin: 25px 10px 10px 10px;
+    padding-right: 15px;
+    border-right: 1px solid #dddddd;
+}
+
+.navmenu-end {
+    float: right;
+    margin: 25px 10px 10px 10px;
+    padding-right: 15px;
 }
